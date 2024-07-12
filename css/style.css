@@ -1,0 +1,392 @@
+/*
+    1. general styles
+    2.header styles
+    3.about styles
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /* padding not affect the width of the element */
+}
+/* this solve the float porblem */
+.clear{
+    clear: both;
+}
+/* or you can add div to the header element and give it overflow hidden */
+
+a{
+    text-decoration: none;
+}
+/* .header-content{
+    overflow: hidden;
+} */
+
+body{
+    font-family: 'reem kufi';
+    background-color: darkred;
+}
+.container{
+    width: 80%;
+    margin: auto; /* center element */
+}
+/* This class applied for all hover in the pages specially button */
+.hover-opacity{
+    /* this make the transition work only on opacity not all the property of the  button  */
+    transition: opacity 0.8;
+}
+.hover-opacity:hover{
+    opacity: 0.7;
+
+}
+
+
+/* ******************************************************* */
+/* header styles */
+.header
+{
+    /* this make the element abot the home section */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header .logo img{
+    width: 15%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+/* here we divid the div into to sides one for the logo and other for the navbar */
+.header .logo{
+    width: 40%;
+    color:aliceblue;
+    float: left;
+
+}
+
+.header .nav{
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+    list-style: none;
+    text-align: right;
+    /* this make the text go right and fill the spaces */
+
+}
+.header .nav > li{
+    display: inline-block;
+    font-weight: bold;
+    /*  this also fix a problem with the ul */
+}
+/* here we extend the a to make the whole box of list element clickable  */
+
+.header .nav > li > a{
+    float: left;
+    text-align: right;
+    padding: 0 20px;
+    margin-top: 15px;
+    color: white;
+}
+
+.header .nav > li > a.active::after,
+.header .nav > li > a::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: rgb(255, 39, 39);
+    transition: width 1s;
+}
+
+.header .nav  a.active::after{
+    width:100%;
+}
+.header .nav   a::after{
+    width:0;
+}
+.header .nav  a:hover:after{
+    width:100%;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-menu{
+    list-style: none;
+    position: absolute;
+    top: 90%;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 5px;
+    transition: opacity 0.8s, visibilty 0.8s;
+}
+.dropdown-menu li a {
+    color: white;
+    background-color: rgb(77, 12, 0);
+    width: 100px;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    transition: color 1s , background-color 1s;
+}
+.dropdown-menu li a:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+
+}
+.dropdown-menu li a {
+    color: white;
+}
+.dropdown:hover .dropdown-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.fa{
+    font-size: 16px;
+    transition: visibility 1s , opacity 1s;
+}
+.dropdown:hover .fa{
+visibility: hidden;
+opacity: 0;
+}
+
+/* end of header styles */
+/* ******************************************************* */
+
+.home{
+    height: 100vh;
+    background-image: url(../images/Bat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    width: 60%;
+}
+.home  .title{
+    text-transform: uppercase;
+    font-size: 4em;
+    color: white;
+
+}
+.home-content .home-desc{
+    color: white;
+    font-size: 1em;
+    margin:10px;
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 2em;
+}
+.btn{
+  font-family: 'reem kufi';
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    min-width: 150px;
+    text-transform: capitalize;
+    padding: 15px;
+    margin: 15px 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-start
+{
+    background-color: rgb(241, 241, 241);
+}
+.btn-start:hover{
+    background-color: rgb(240, 0, 40);
+    color: white;
+    transition: 1s;
+}
+.btn-end{
+    background-color: rgb(240, 0, 40);
+    color: white;
+}
+.btn-end:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 1s;
+}
+/* End of home style section  */
+
+/* Welcome Section */
+.welcome{
+  background-color: #120e12;
+}
+.header-of-section{
+    color:white;
+    text-align: center;
+    padding: 40px 0 20px 0;
+    font-size: 28px;
+    text-transform: capitalize;
+
+}
+.header-of-section::after{
+    content: "";
+    display: inline-block;
+    width:40px;
+    background-color: #9c0000;
+    height: 4px;
+    margin-bottom: 50px;
+}
+
+.traiangles-element{
+    width: 31.5%;
+    padding: 80px 40px;
+    display: block;
+    text-align: center;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+    z-index: 1;
+    margin-bottom: 50px;
+    transition: border-radius 1s, color 1s , box-shadow 1s;
+    overflow: hidden;
+}
+.middle-item{
+  margin:0 2%;
+}
+i{
+    font-size: 22px;
+}
+
+.ltr-fade{
+    position: relative;
+}
+.ltr-fade::after{
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0;
+    background-color: #120e12;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    width: 0%; /* here the fade will come from left to right */
+    /* height:0; */ /* here it will came from the topleft corner */
+    z-index: -1;
+    transition: height 1s,width  1s ;
+}
+
+.ltr-fade:hover:after {
+  width: 100%;
+  height: 100%;
+
+}
+.traiangles-element:hover{
+  border-radius: 40px;
+  box-shadow: 5px 10px #cdcdcd;
+}
+.traiangles-element:hover .hover-white {
+    color: white;
+    transition: 1.5s;
+}
+.traiangles-element:hover p{
+    color: rgb(190, 190, 190);
+}
+.traiangles-element p{
+  padding-top: 20px;
+}
+/*  End of the Welcome Section */
+
+/* Portfolio Section */
+.portfolio{
+  background-color: rgb(36, 0, 0);
+}
+.portfolio-element{
+  width: 32%;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 50px;
+  z-index: 1;
+}
+.portfolio-element img{
+  width: 100%;
+  height: 100%;
+}
+.first-element{
+  padding: 5.3% 0;
+}
+.first-element img{
+  width: 100%;
+}
+.portfolio-images-2 .portfolio-element
+{
+background-color: white;
+}
+.top-down{
+  position: relative;
+}
+.top-down:after{
+  position: absolute;
+  content: "";
+  top:0;
+  left: 0;
+  background-color: rgba(19, 17, 17, 0.7);
+  height: 0%;
+  z-index: 2;
+  transition: height 1s,width  1s ;
+}
+.top-down:hover:after {
+  width: 100%;
+  height: 100%;
+}
+.fa-external-link-square{
+  position:absolute;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+  z-index: 24;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+  visibility: hidden;
+}
+.portfolio-element:hover .fa-external-link-square{
+  opacity: 1;
+  visibility: visible;
+}
+/* end of the portfolio elements */
+
+/* ****************************** */
+footer{
+    background-color: #000;
+}
+.social-icons{
+  color:white;
+  text-align: center;
+  padding: 40px 0 20px 0;
+  text-align: center;
+}
+.social-icons .fa{
+  margin: 1% 0.5%;
+  padding: 20px;
+  color: white;
+  font-size: 2em;
+  transition: background 1s,color 1s;
+
+}
+.social-icons .fa:hover{
+  background-color: white;
+  color: black;
+
+
+}
+.top-page{
+  position: -webkit-sticky;
+  background: transparent;
+  position: sticky;
+  bottom: 10px;
+  left: 10px;
+}

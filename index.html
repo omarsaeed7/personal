@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- the head -->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!--  we put the header outside the container so that the content of the header will be in the containerbut the background wil be out side the container
+    -->
+  <!-- The Header of the Page -->
+  <div class="header" >
+    <!-- Container that middle the element  -->
+    <div class="container">
+      <div class="logo">
+        <img src="images/logo.png" alt="logo" draggable="false"> <!-- this make the user can't drag the image  -->
+      </div>
+      <ul class="nav" id="top">
+        <li><a href="#" class="active"> Home </a></li>
+        <li> <a href="#welcome"> About </a></li>
+        <li> <a href="#Portfolio"> Portfolio</a></li>
+        <li class="dropdown">
+          <a href="#"> Blog <i class="fa fa-caret-down"></i> </a>
+          <ul class="dropdown-menu">
+            <li><a href="">Blog post</a> </li>
+            <li><a href="">Blog post</a> </li>
+            <li><a href="">Blog post</a> </li>
+          </ul>
+        </li>
+        <li> <a href="#social"> Contact</a></li>
+      </ul>
+      <div class="clear"></div>
+      <!--this make the float fixed -->
+    </div>
+  </div> <!-- End oF the header -->
+  <!-- HOme Section -->
+  <div class="home">
+    <div class="overlay">
+      <!-- overlay لازم يحاوط ال محتوى بحيث ان الكلام يبان  -->
+      <div class="home-content">
+        <h1 class="title">this is a new era</h1> <!-- First don't use h1 in css , give it  a class and don't write with uppercase, do it there in css-->
+        <p class="home-desc" style="font-size:1.2em; font-family:acme">
+          I'm Omar Saeed, Graduated from computer science <br>
+          Junior FrontEnd Developer
+        </p>
+        <button class="btn btn-start">get started</button><button class="btn btn-end">learn more</button>
+      </div> <!-- end of home content-->
+    </div> <!-- end of overlay -->
+  </div>
+  <!--end of home section-->
+
+  <!-- Welcome Section -->
+  <section class="welcome" id="welcome">
+    <div class="container">
+      <div class="header-of-section">
+        <h2 class="header-2">welcome to website</h2>
+      </div>
+      <div class="triangles">
+        <!-- Triangle section-->
+        <div class="traiangles-element  ltr-fade">
+          <i class="fa fa-pencil hover-white"></i>
+          <h3 class="hover-white">Logo Designer</h3>
+          <p>Junior Logo designer, designed many logos as a hobbit,
+            also ability to deal with vectors</p>
+        </div>
+        <div class="traiangles-element ltr-fade middle-item">
+          <i class="fa fa-cogs hover-white"></i>
+          <h3 class="hover-white">FrontEnd Developer</h3>
+          <p>HTML5 CSS3 & Javascript basics, built more than 3 projects</p>
+        </div>
+        <div class="traiangles-element ltr-fade ">
+          <i class="fa fa-desktop hover-white"></i>
+          <h3 class="hover-white">UI Designer</h3>
+          <p>Ability to use inkscape as a UI tool for designing web pages</p>
+        </div>
+      </div>
+      <div class="clear"></div><!-- This for clear the float issues-->
+    </div> <!-- End of traiangles section-->
+  </section> <!-- End Of the Welcome Section  -->
+
+  <!-- Portfolio Section -->
+  <section class="portfolio" id="Portfolio">
+    <div class="container">
+      <div class="header-of-section">
+        <h2 class="header-2">UI Development</h2>
+      </div>
+        <!-- Images section-->
+      <div class="portfolio-images">
+
+        <div class="portfolio-element top-down">
+
+          <a href="https://github.com/KillingFiction/KillingFiction" target="_blank">
+            <i class="fa fa-external-link-square"></i></a>
+          <img src="images/page1.png" alt="page1">
+        </div>
+        <div class="portfolio-element middle-item top-down">
+          <a href="https://github.com/KillingFiction/KillingFiction" target="_blank">
+            <i class="fa fa-external-link-square"></i></a>
+
+          <img src="images/page2.png" alt="page2">
+        </div>
+        <div class="portfolio-element top-down">
+          <a href="https://github.com/KillingFiction/KillingFiction" target="_blank">
+            <i class="fa fa-external-link-square"></i></a>
+
+          <img src="images/page3.png" alt="page3">
+
+        </div>
+      </div>
+      <div class="header-of-section">
+        <h2 class="header-2">logo designs</h2>
+      </div>
+
+      <div class="portfolio-images portfolio-images-2">
+
+        <div class="portfolio-element first-element">
+          <img src="images/logo4.png" alt="page2">
+        </div>
+        <div class="portfolio-element middle-item">
+        <img src="images/logo3.png" alt="page3">
+        </div>
+        <div class="portfolio-element ">
+
+            <img src="images/logo1.png" alt="page1">
+        </div>
+      </div>
+      <div class="clear"></div><!-- This for clear the float issues-->
+    </div> <!-- End of traiangles section-->
+  </section> <!--  End Portfolio Section -->
+
+<footer id="social">
+  <div class="container">
+      <div class="social-icons ">
+          <a href="https://www.facebook.com/OmarSbeaka" target="_blank" >
+             <i class="fa fa-facebook"></i>
+          </a>
+          <a href="https://twitter.com/OmarSbeaka" target="_blank">
+        <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/omar-saeed-624b44165/" target="_blank">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/KillingFiction" target="_blank">
+        <i class="fa fa-github"></i>
+        </a>
+      </div>
+    </div>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1980"
+   height="1280"
+   viewBox="0 0 523.87499 338.66668"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1 (1:1.1+202105261517+ce6663b3b7)"
+   sodipodi:docname="KF Logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     units="px"
+     width="1980px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="0.33361401"
+     inkscape:cx="1356.3579"
+     inkscape:cy="717.89551"
+     inkscape:window-width="1511"
+     inkscape:window-height="863"
+     inkscape:window-x="355"
+     inkscape:window-y="190"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="325.17062"
+       y="869.95705"
+       width="819.19772"
+       height="339.22065"
+       id="rect21972" />
+  </defs>
+  <g
+     inkscape:label="Background"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#1a1a1a;fill-rule:evenodd;stroke-width:14.7458"
+       id="rect993"
+       width="523.52472"
+       height="338.82382"
+       x="-3.9464676"
+       y="-2.4930859" />
+    <circle
+       id="path1159"
+       style="fill:#ffffff;stroke:#f5f5f5;stroke-width:0.264583;fill-opacity:1;stroke-opacity:1"
+       cx="370.66022"
+       cy="227.74179"
+       r="0.098461978" />
+    <circle
+       id="path1161"
+       style="fill:#ffffff;stroke:#f5f5f5;stroke-width:0.264583;fill-opacity:1;stroke-opacity:1"
+       cx="370.66022"
+       cy="227.74179"
+       r="0.098461978" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Logo">
+    <path
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.171826;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:1"
+       id="path4856"
+       d="m 185.242,92.252424 c 3.35383,38.176426 12.68046,68.934896 16.41109,120.662186 l 17.32888,-0.75808 C 208.19492,183.58484 190.47763,129.4333 190.78544,92.252424 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.203726;stroke:#f5f5f5;stroke-opacity:1"
+       id="path4858"
+       d="m 210.44349,108.48092 c -18.49772,39.97636 -34.95541,69.78547 -56.83547,103.85609 l 5.65228,0.31297 v 0 c 24.81418,-40.76728 34.91214,-67.26203 58.3189,-102.97913 z"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.249218;stroke:#f5f5f5;stroke-opacity:1"
+       id="path4880"
+       d="m 196.41525,144.74339 c 20.99989,-8.33167 41.78329,-11.76746 61.90937,-16.65421 -23.20276,1.73558 -40.36985,5.05158 -58.17151,10.39017 z"
+       sodipodi:nodetypes="cccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:0.114292;stroke:#f5f5f5;stroke-opacity:1"
+       id="path4884"
+       d="M 190.78544,92.781591 C 193.65922,71.330328 226.71418,114.21735 243.98997,77.02985 227.86332,104.44322 196.25372,66.78089 185.242,92.252424 Z"
+       sodipodi:nodetypes="cccc" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.29258627,0,0,0.29258627,65.329753,-27.366967)"
+       id="text21970"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect21972);fill:#ffffff;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:1"><tspan
+         x="325.16992"
+         y="905.34766"
+         id="tspan60736"><tspan
+           style="font-weight:bold;font-family:Sawasdee;-inkscape-font-specification:'Sawasdee Bold'"
+           id="tspan60734">KILLING FICTION</tspan></tspan></text>
+  </g>
+</svg>
